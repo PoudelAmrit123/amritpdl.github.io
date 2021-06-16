@@ -1,0 +1,367 @@
+ header{
+
+    background-color: peachpuff;
+  color:white;
+    padding: 30px;
+    padding-top: -10px;
+border-bottom: royalblue  3px solid;
+border-radius: 20px;
+
+ }
+
+ #container  :hover{
+
+  
+    color: red;
+
+ }
+  .serach1 :hover{
+    background-color: bisque;
+    color: blueviolet;
+  }
+     
+    .MenuContainer{
+           float: right;
+
+    }
+
+
+.MenuContainer{
+
+    font: bold;
+   
+       padding-top: -10px;
+       margin-top: 10px;
+}
+
+ header nav ul li a {
+
+  padding: 30px;
+  text-decoration :aqua;
+
+
+ }
+
+ .nav-bar-header{
+     float: left;
+      color: white;
+      text-decoration: black;
+      text-transform: uppercase;
+          font-size: 16px;
+
+          margin-top: 09px;
+ }
+
+ .navbar-brand{
+     color: maroon;
+ }
+ header nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+     font-size: 25px;
+     font: bold;
+}
+ header ul li {
+   list-style: none;
+ }
+
+
+input {
+
+     margin-left: 25px;
+     float: left;
+     padding: 6px;
+      color: black;
+
+}
+  button {
+
+   padding: 6px;
+   font: 16px;
+    background-color : rgb(22, 96, 126);
+    color: white;
+
+  }
+  .MenuContainer{
+
+    margin-top:  -29px;
+  margin-right: -45px; 
+
+}
+
+    #showcase {
+   
+ background: url('./img/hacker.jpg');
+
+ /* display: flex; */
+  /* text-align: center; */
+  /* align-items: center; */
+   justify-content: center;
+    min-height: 400px;
+    color:  white;
+     margin-top: -17px ;  
+      border-radius: 25px;
+    }
+    .boxes {
+      width: 100%;
+      margin: auto;
+      overflow: hidden;
+    padding : 50px;
+    
+    }
+
+      .box1 {
+  
+      float:  left;
+       text-align:  center;
+       margin: 20px;
+  padding:  10px;
+  width: 25%;
+   border:  10px solid #ddd;
+    border-radius: 25px;
+    border-top-color: #21BCB8;
+    border-bottom-color:#21BCB8 ;
+    border-right-color: bisque;
+    border-left-color: bisque;
+    height: 210px;
+  
+
+      }
+  
+       .box1 img {
+
+        width: 50px;
+       }
+   
+       .boxes {
+
+        align-content: left;
+       }
+
+    .boxes :hover {
+      transform: rotateZ(5deg)
+    }
+
+    #logotype {
+
+      margin-top: 100px;
+    }
+        #flexbox {
+          display: flex;
+          /* width: 100%;
+          margin: auto;
+          overflow: hidden; */
+        /* padding : 50px; */
+
+
+        }
+    #column1 {
+      
+
+  width: 25%;
+  text-align: center;
+  float: left;
+  border: 10px solid #ddd;
+  border-radius: 25px;
+  border-top-color: #21BCB8;
+  border-bottom-color:#21BCB8 ;
+  border-right-color: bisque;
+  border-left-color: bisque;
+  height: 210px;
+  margin: 20px;
+  padding:  10px;
+  margin-left: 39px;
+
+    }
+        
+    #column1 img {
+       width: 55px;
+    }
+.webmain img {
+   width: 80px;
+}
+  .webmain {
+margin-right: 10opx;
+  }
+
+   .column2 {
+  width: 25%;
+  float: left;
+  border: 10px solid #ddd;
+    height: 210px;
+    border-radius: 25px;
+    border-top-color: #21BCB8;
+    border-bottom-color: #21BCB8;
+    border-right-color: bisque;
+    border-left-color: bisque;
+     text-align: center;
+     height: 210px;
+     margin: 30px;
+     padding: 10px;
+
+
+
+   }
+   #boxwithdiv :hover{
+  transform: rotateZ(5deg)
+ }
+       .column2 img {
+          width: 50px;
+       }
+
+
+
+       #java1 img {
+         height: 70px;
+         width: 50px;
+       }
+   .webhost1 img {
+     height: 50px;
+   }
+
+   #devwithboxes12 :hover {
+
+    transform: rotateZ(5deg)
+
+   }
+      .extra {
+         text-align: center;
+         font-style: italic;
+      }
+
+      .logotype {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+  .back {
+    padding:50px 0;
+    background-color:rgba(202, 185, 195, 0.74);
+    color:#4b4c4d;
+     border-radius: 13px;
+  }
+
+ .row {
+     display: flex;
+     flex-direction: row;
+       margin-top: 10px;
+       margin-bottom: 0px;
+        text-decoration: none;
+      
+
+
+
+
+ }
+.rowitem {
+  list-style: none;
+  width: 25%;
+  margin-left: 100px;
+}
+
+
+
+
+ .li1 {
+   margin-left: -45px;
+ }
+  .li2 {
+    margin-left: -25px;
+  }
+.li3 {
+  margin-left: -40px;
+}
+ .li4 {
+   margin-top: 90px;
+ }
+  .copyright {
+   margin-top: 75px;
+   margin-right: 10px;
+ 
+  }
+
+  .itemsocial {
+        float: left;
+
+
+  }
+  .back {
+    list-style: none;
+  }
+  .row ul {
+
+     list-style: none;
+  }
+    .row ul a {
+       text-decoration: none;
+       opacity: .7;
+    }
+     .row ul a :hover {
+         color: salmon;
+         font-size: 100px;
+     }
+    .album img {
+   width: 100px;       
+    }
+  .album {
+    padding-left: 20px;
+     text-align: center;
+      
+  }
+   .video {
+      margin-left: 280px;
+   }
+
+    .few
+    {
+      font-style: oblique;
+        text-align: center;
+        margin-right: 150px;
+        margin-left: 150px;
+
+        border: #21BCB8;
+    }
+     .row :hover {
+        color: red;
+     }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
